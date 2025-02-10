@@ -111,13 +111,83 @@
 // console.log(checkStorage(70, 0));
 // console.log(checkStorage(200, 20));
 // --------------------------------------------------------------------------------------------
+
+
+// --------------------------------------------------------------------------------------------
+/** 
+** Функція checkPassword(password) порівнює переданий їй пароль (параметр password) зі 
+** збереженим паролем адміністратора (correctPassword) і повертає рядок з повідомленням про результат.
+** Використовуючи тернарний оператор, доповни функцію таким чином, щоб:
+** Якщо значення password і correctPassword збігаються, функція повертала рядок "Access granted"
+** В іншому випадку, функція повертала рядок "Access denied, wrong password!"
+ * */
+
+// function checkPassword(password) {
+//     const correctPassword = password === "jqueryismyjam" ? 'Access granted' : 'Access denied, wrong password!';
+//     return correctPassword
+// }
+
+// console.log(checkPassword("jqueryismyjam"));
+// console.log(checkPassword("123"));
 // --------------------------------------------------------------------------------------------
 
 
+// --------------------------------------------------------------------------------------------
+/**
+ *? Приклад використання оператора switch:
+ */
+
+//  const fruit = 'apple';
+
+// switch (fruit) {
+//   case 'apple':
+//     console.log('Apple selected');
+//     break;
+//   case 'banana':
+//     console.log('Banana selected');
+//     break;
+//   case 'orange':
+//     console.log('Orange selected');
+//     break;
+//   default:
+//     console.log('The fruit is unknown');
+// }
+// --------------------------------------------------------------------------------------------
 
 
+// --------------------------------------------------------------------------------------------
+/** Функція getSubscriptionPrice(type) отримує рядок з типом передплати користувача (параметр type), 
+* перевіряє її на збіг з трьома можливими типами щомісячної передплати та повертає ціну, 
+* або повідомлення про неправильний тип передплати.
+* Якщо значення параметра type — це рядок:
+"starter" — ціна передплати 0 кредитів.
+"professional" — ціна передплати 20 кредитів.
+"organization" — ціна передплати 50 кредитів.
+Для будь-якого іншого значення параметра type повертається рядок "Invalid subscription type!".
+Використай оператор switch для розв'язання цієї задачі!
+*/
+
+function getSubscriptionPrice(type) {
+    switch (type) {
+        case 'starter':
+            return `0`;
+            break;
+        case 'professional':
+            return `20`;
+            break;
+        case 'organization':
+            return `50`;
+            break;
+        default:
+        return `Invalid subscription type!`;
+            
+            break;
+    }
+}
+
+console.log(getSubscriptionPrice("professional"));
+console.log(getSubscriptionPrice("organization"));
+// --------------------------------------------------------------------------------------------
 
 
-
-
-
+// --------------------------------------------------------------------------------------------
