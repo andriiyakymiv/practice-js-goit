@@ -81,4 +81,74 @@ firstName - рядок, що містить ім'я для перевірки й
 // console.log(checkForName("Caty Stars", "cAtY")); // true
 // console.log(checkForName("Caty Stars", "Andromeda")); // false
 
-// ------------------------------------------------------------------------------------
+// ---------------------------------
+
+/**
+Функція checkFileExtension(fileName, ext) приймає два параметри:
+fileName - рядок, що зберігає ім'я файлу з розширенням, наприклад, styles.css, hello.js тощо.
+ext - рядок, що зберігає розширення, наприклад, .css, .js тощо
+Доповни код функції так, щоб: Якщо ім'я файлу fileName закінчується розширенням,
+зазначеним у параметрі ext, то функція повертала рядок "File extension matches"
+В іншому разі, функція повертала рядок "File extension does not match"
+ */
+
+// function checkFileExtension(fileName, ext) {
+//     return fileName.endsWith(ext) ? 'File extension matches' : 'File extension does not match';
+// }
+
+// console.log(checkFileExtension("styles.css", ".css"));
+// console.log(checkFileExtension("styles.css", ".js"));
+// console.log(checkFileExtension("app.js", ".js"));
+// console.log(checkFileExtension("app.js", ".html"));
+
+
+/**
+Функція getFileName(file) приймає один параметр
+
+file - рядок з іменем файлу. Ім'я файлу може бути з розширенням, наприклад: styles.css, app.js або без, наприклад: styles, app.
+Використовуючи методи indexOf та slice, доповни код функції таким чином, щоб:
+
+Вона перевіряла наявність розширення в імені файлу (назва розширення відокремлюється від імені файла крапкою)
+Якщо ім'я файлу не містить розширення, то функція повертала новий підрядок, що містить ім'я файлу без змін
+В іншому разі функція повертала підрядок з іменем файлу, але без розширення
+ */
+
+// function getFileName(file) {
+//     const punkt = file.indexOf('.');
+//     console.log(punkt);
+//     if (punkt === -1) {
+//         return file;
+//     } else {
+//         return file.slice(0, punkt);
+//     }
+// }
+
+// console.log(getFileName("styles.css"));
+// console.log(getFileName("app"));
+// console.log(getFileName("index.js"));
+// console.log(getFileName("index.css"));
+
+// ----------------------------------------------------
+
+/**
+Функція createFileName(name, ext) приймає два параметри:
+
+name - рядок, що зберігає ім'я файлу без розширення, яке вводить користувач. 
+Воно може містити зайві пробіли на початку або в кінці рядка, наприклад "order ", " finance " тощо
+ext - рядок, що зберігає розширення, наприклад "txt", "xml" тощо
+
+Використовуючи синтаксис шаблонних рядків і метод trim(), доповни код функції таким чином, 
+щоб вона повертала повне (об'єднане) ім'я файлу з доданим розширенням, зазначеним у 
+параметрі ext у форматі ім'я.розширення. Також повне ім'я файлу не повинно містити 
+зайвих пробілів на початку або наприкінці.
+ */
+
+// function createFileName(name, ext) {
+//     return `${ name.trim() }.${ ext }`;
+// }
+
+// console.log(createFileName(" order ", "txt"));
+// console.log(createFileName("report ", "csv"));
+// console.log(createFileName(" presentation", "xml"));
+
+// ----------------------------------------------------
