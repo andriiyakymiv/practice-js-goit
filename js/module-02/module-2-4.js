@@ -97,6 +97,24 @@
 
 // ------------------------------------------------------------------
 
+/**
+Функція findNumber(start, end, divisor) приймає три параметра, які є цілими числами.
+Доповни код функції таким чином, щоб вона:
+повертала перше число у діапазоні від start до end включно, яке ділиться на divisor без остачі
+не використовуй оператор break
+ */
+
+// `function findNumber(start, end, divisor) {
+//     for (let i = start; i <= end; i++) {
+//         if (i % divisor === 0) {
+//             return i;
+//       }
+//     }
+// }
+
+// console.log(findNumber(2, 6, 5));
+// console.log(findNumber(8, 17, 3));
+// console.log(findNumber(6, 9, 4));
 
 
 
