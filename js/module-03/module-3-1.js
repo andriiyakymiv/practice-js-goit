@@ -77,4 +77,20 @@ lastElement	останній елемент масиву
 // console.log(getLastElementMeta(['apple', 'peach']));
 // console.log(getLastElementMeta(['apple']));
 
-//! ---------- length -1 ----------
+//! ---------- First element and length -1 ----------
+/** Функція getExtremeElements(array) приймає один параметр array
+ * масив елементів довільної довжини. Доповни код функції таким чином,
+ * щоб вона повертала масив з двох елементів - першого і останнього
+ * елементів параметра array.
+ */
+
+// function getExtremeElements(array) {
+//   const firstElem = array[0];
+//   const lastElemIndex = array.length - 1;
+//   const lastElement = array[lastElemIndex];
+//   return [firstElem, lastElement];
+// }
+
+// console.log(getExtremeElements([1, 2, 3, 4, 5])); //повертає [1, 5]
+// console.log(getExtremeElements(['Earth', 'Mars', 'Venus'])); //повертає ["Earth", "Venus"]
+// console.log(getExtremeElements(['apple', 'peach', 'pear', 'banana'])); //повертає ["apple", "banana"]
