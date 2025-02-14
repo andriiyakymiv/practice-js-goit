@@ -94,3 +94,19 @@ lastElement	останній елемент масиву
 // console.log(getExtremeElements([1, 2, 3, 4, 5])); //повертає [1, 5]
 // console.log(getExtremeElements(['Earth', 'Mars', 'Venus'])); //повертає ["Earth", "Venus"]
 // console.log(getExtremeElements(['apple', 'peach', 'pear', 'banana'])); //повертає ["apple", "banana"]
+
+//! ---------- .join ----------
+/**
+ * Функція getLength(array) очікує один параметр array - масив довільних значень.
+ * Доповни код функції так, щоб вона перетворювала масив у рядок, без роздільників,
+ * і повертала кількість символів в отриманому рядку.
+ */
+
+function getLength(array) {
+  const union = array.join('');
+  return union.length;
+}
+
+console.log(getLength(['Mango', 'hurries', 'to', 'the', 'train'])); //повертає 22
+console.log(getLength(['M', 'a', 'n', 'g', 'o'])); //повертає 5
+// console.log(getLength(['top', 'picks', 'for', 'you'])); //повертає 14
