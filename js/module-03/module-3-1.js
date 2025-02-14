@@ -23,3 +23,11 @@ lastElement	останній елемент масиву
 // console.log(lastElement);
 
 // ------------------------------------------------------
+
+/**
+ * Виконай перевизначення значення елементів з індексами 1 і 3. Заміни "plum" на "peach", а "orange" на "banana".
+ */
+
+const fruits = ["apple", "plum", "pear", "orange"];
+fruits[1] = "peach";
+fruits[3] = "banana";
