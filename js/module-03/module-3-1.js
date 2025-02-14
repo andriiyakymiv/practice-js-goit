@@ -46,16 +46,35 @@ lastElement	останній елемент масиву
 
 // Псевдомасив arguments
 
-// ---------- .length ----------
+//! ---------- .length ----------
 
-//*Функція getOrderQuantity(order) приймає один параметр order - масив рядків,
-//* які описують продукти в замовленні клієнта. Доповни код функції таким чином,
-//* щоб вона повертала число, що дорівнює кількості елементів масиву.
+//Функція getOrderQuantity(order) приймає один параметр order - масив рядків,
+//які описують продукти в замовленні клієнта. Доповни код функції таким чином,
+//щоб вона повертала число, що дорівнює кількості елементів масиву.
 
-function getOrderQuantity(order) {
-  return order.length;
-}
+// function getOrderQuantity(order) {
+//   return order.length;
+// }
 
-console.log(getOrderQuantity(['apple', 'peach', 'pear', 'banana']));
+// console.log(getOrderQuantity(['apple', 'peach', 'pear', 'banana']));
 
-// ---------- length ----------
+//! ---------- length -1 ----------
+/** Функція getLastElementMeta(array) приймає один параметр array -
+ * масив довільних значень. Доповни код функції таким чином,
+ * щоб вона повертала новий масив з двох елементів:
+ * перший елемент - це індекс останнього елементу у масиві array
+ * другий елемент - це значення останнього елементу у масиві array
+ */
+
+// function getLastElementMeta(array) {
+//   const lastElemIndex = array.length - 1;
+//   const lastElement = array[lastElemIndex];
+//   return [lastElemIndex, lastElement];
+// }
+
+// console.log(getLastElementMeta(['apple', 'peach', 'pear', 'banana']));
+// console.log(getLastElementMeta(['apple', 'peach', 'pear']));
+// console.log(getLastElementMeta(['apple', 'peach']));
+// console.log(getLastElementMeta(['apple']));
+
+//! ---------- length -1 ----------
