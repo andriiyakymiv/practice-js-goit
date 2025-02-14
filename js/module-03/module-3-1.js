@@ -46,15 +46,16 @@ lastElement	останній елемент масиву
 
 // Псевдомасив arguments
 
-// ------------------------------------------------------
+// ---------- .length ----------
 
 //*Функція getOrderQuantity(order) приймає один параметр order - масив рядків,
 //* які описують продукти в замовленні клієнта. Доповни код функції таким чином,
 //* щоб вона повертала число, що дорівнює кількості елементів масиву.
 
 function getOrderQuantity(order) {
-  const orderLength = order.length;
-  return orderLength;
+  return order.length;
 }
 
-getOrderQuantity(['apple', 'peach', 'pear', 'banana']);
+console.log(getOrderQuantity(['apple', 'peach', 'pear', 'banana']));
+
+// ---------- length ----------
