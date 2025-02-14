@@ -102,11 +102,32 @@ lastElement	останній елемент масиву
  * і повертала кількість символів в отриманому рядку.
  */
 
-function getLength(array) {
-  const union = array.join('');
-  return union.length;
-}
+// function getLength(array) {
+//   const union = array.join('');
+//   return union.length;
+// }
 
-console.log(getLength(['Mango', 'hurries', 'to', 'the', 'train'])); //повертає 22
-console.log(getLength(['M', 'a', 'n', 'g', 'o'])); //повертає 5
+// console.log(getLength(['Mango', 'hurries', 'to', 'the', 'train'])); //повертає 22
+// console.log(getLength(['M', 'a', 'n', 'g', 'o'])); //повертає 5
 // console.log(getLength(['top', 'picks', 'for', 'you'])); //повертає 14
+
+//! ---------- .split ----------
+/**
+ * Сервісу гравірування прикрас потрібна функція, яка б автоматично рахувала ціну гравірування,
+ * залежно від кількості слів і ціни за слово.
+ * Оголошена функція calculateEngravingPrice(message, pricePerWord).
+ * Ця функція приймає першим параметром рядок, що складається зі слів, розділених лише пробілами
+ * (параметр message) та другим параметром - число, що містить ціну гравірування за одне слово (параметр pricePerWord).
+ * Доповни тіло функції так, щоб вона повертала загальну вартість гравірування усіх слів в рядку.
+ */
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//   const arrayMessage = message.split(' ');
+//   return arrayMessage.length * pricePerWord;
+// }
+
+// console.log(calculateEngravingPrice('JavaScript is in my blood', 10));
+// console.log(calculateEngravingPrice('JavaScript is in my blood', 10));
+// console.log(calculateEngravingPrice('JavaScript is in my blood', 20));
+// console.log(calculateEngravingPrice('Web-development is creative work', 40));
+// console.log(calculateEngravingPrice('Web-development is creative work', 20));
