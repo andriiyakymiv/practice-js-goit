@@ -28,6 +28,33 @@ lastElement	останній елемент масиву
  * Виконай перевизначення значення елементів з індексами 1 і 3. Заміни "plum" на "peach", а "orange" на "banana".
  */
 
-const fruits = ["apple", "plum", "pear", "orange"];
-fruits[1] = "peach";
-fruits[3] = "banana";
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = "peach";
+// fruits[3] = "banana";
+
+// ------------------------------------------------------
+
+// Function declaration
+
+// function freetUser(firstName, lastName) {
+//   console.log(`${firstName} ${lastName}`);
+// }
+
+// freetUser("Andrii", "Yakymiv");
+
+// Function expression
+
+// Псевдомасив arguments
+
+// ------------------------------------------------------
+
+//*Функція getOrderQuantity(order) приймає один параметр order - масив рядків,
+//* які описують продукти в замовленні клієнта. Доповни код функції таким чином,
+//* щоб вона повертала число, що дорівнює кількості елементів масиву.
+
+function getOrderQuantity(order) {
+  const orderLength = order.length;
+  return orderLength;
+}
+
+getOrderQuantity(['apple', 'peach', 'pear', 'banana']);
