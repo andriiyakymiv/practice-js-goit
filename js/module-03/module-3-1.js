@@ -182,3 +182,24 @@ lastElement	останній елемент масиву
 // console.log(getSlice(['Mango', 'Poly', 'Ajax'], 'Poly')); // ['Mango', 'Poly'];
 // console.log(getSlice(['Mango', 'Poly', 'Ajax'], 'Ajax')); // ["Mango", "Poly", "Ajax"]
 // console.log(getSlice(['Mango', 'Poly', 'Ajax'], 'Jacob')); // []
+
+/**
+ * ? ----------- .push ----------
+ * Функція createArrayOfNumbers(min, max) приймає два параметра
+ * min - ціле число, з якого починаються обчислення
+ * max - ціле число, до якого включно триватимуть обчислення
+ * Доповни код функції createArrayOfNumbers(min, max) таким чином,
+ * щоб вона повертала масив усіх цілих чисел від значення min до max включно.
+ */
+
+// function createArrayOfNumbers(min, max) {
+//   const array = [];
+//   for (let i = min; i <= max; i += 1) {
+//     array.push(i);
+//   }
+//   return array;
+// }
+
+// console.log(createArrayOfNumbers(1, 3)); // [1, 2, 3]
+// console.log(createArrayOfNumbers(14, 17)); // [14, 15, 16, 17]
+// console.log(createArrayOfNumbers(29, 34)); // [29, 30, 31, 32, 33, 34]
