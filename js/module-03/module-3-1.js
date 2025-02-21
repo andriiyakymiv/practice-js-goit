@@ -132,9 +132,9 @@ lastElement	останній елемент масиву
 // console.log(calculateEngravingPrice('Web-development is creative work', 40));
 // console.log(calculateEngravingPrice('Web-development is creative work', 20));
 
-//! ----------- .slice ----------
-
-/** Доповни код таким чином, щоб змінні містили часткові копії вихідного масиву fruits.
+/**
+ * ? ----------- .slice ----------
+ * Доповни код таким чином, щоб змінні містили часткові копії вихідного масиву fruits.
  * firstTwoEls - масив із перших двох елементів
  * nonExtremeEls - масив з усіх елементів, крім першого та останнього
  * lastThreeEls - масив із трьох останніх елементів
@@ -149,8 +149,8 @@ lastElement	останній елемент масиву
 // console.log(nonExtremeEls);
 // console.log(lastThreeEls);
 
-//! ----------- .concat ----------
 /**
+ * ? ----------- .concat ----------
  * Оголоси змінну allClients та доповни код таким чином, щоб її значенням було посилання на масив,
  * що складається з усіх елементів масивів oldClients і newClients.
  * Спочатку мають іти елементи з масива oldClients, а потім з newClients.
@@ -160,4 +160,25 @@ lastElement	останній елемент масиву
 // const newClients = ['Peach', 'Houston'];
 // const allClients = oldClients.concat(newClients);
 
-console.log(allClients);
+/**
+ * ? ----------- .indexOf ----------
+ * Функція getSlice(array, value) приймає два параметра:
+ * array - масив довільних елементів
+ * value - значення елемента масиву для пошуку
+ * Доповни код функції getSlice(array, value) так, щоб вона виконувала пошук значення value у масиві array і повертала:
+ * порожній масив, якщо в array немає елемента зі значенням value
+ * підмасив, що починається з початку array і до елемента зі значенням value включно, якщо такий елемент є в array
+ */
+
+// function getSlice(array, value) {
+//   console.log(array.indexOf(value));
+//   if (array.indexOf(value) === -1) {
+//     return [];
+//   } else {
+//     return array.slice(0, Number(array.indexOf(value)) + 1);
+//   }
+// }
+
+// console.log(getSlice(['Mango', 'Poly', 'Ajax'], 'Poly')); // ['Mango', 'Poly'];
+// console.log(getSlice(['Mango', 'Poly', 'Ajax'], 'Ajax')); // ["Mango", "Poly", "Ajax"]
+// console.log(getSlice(['Mango', 'Poly', 'Ajax'], 'Jacob')); // []
