@@ -54,17 +54,47 @@
  * тобто наприклад "plum" і "pLuM" мають бути знайдені у масиві ["apple", "plum", "pear"].
  */
 
-function checkStorage(storage, item) {
-  const lowerItem = item.toLowerCase();
-  console.log(lowerItem);
+// function checkStorage(storage, item) {
+//   const lowerItem = item.toLowerCase();
+//   console.log(lowerItem);
 
-  if (storage.includes(lowerItem)) {
-    return `${lowerItem} is available to order!`;
-  } else {
-    return `Sorry! We are out of stock!`;
-  }
-}
+//   if (storage.includes(lowerItem)) {
+//     return `${lowerItem} is available to order!`;
+//   } else {
+//     return `Sorry! We are out of stock!`;
+//   }
+// }
 
-console.log(checkStorage(['apple', 'plum', 'pear'], 'plum')); // "plum is available to order!"
-console.log(checkStorage(['apple', 'plum', 'pear'], 'orange')); // "Sorry! We are out of stock!"
-console.log(checkStorage(['apple', 'plum', 'pear'], 'pEAr')); // "pear is available to order!"
+// console.log(checkStorage(['apple', 'plum', 'pear'], 'plum')); // "plum is available to order!"
+// console.log(checkStorage(['apple', 'plum', 'pear'], 'orange')); // "Sorry! We are out of stock!"
+// console.log(checkStorage(['apple', 'plum', 'pear'], 'pEAr')); // "pear is available to order!"
+
+/**
+ * ? Спільні елементи
+ * Перед розв'язанням цієї задачі варто зазначити, що таке спільні елементи.
+ * Спільними елементами масивів називають ті елементи, які присутні у всіх масивах.
+ * Наприклад, у двох масивах [1, 3, 5] і [0, 8, 5, 3] спільними будуть числа 3 і 5,
+ * оскільки вони присутні в обох вхідних масивах. А числа 0, 1 і 8 присутні тільки в одному з масивів.
+ * Функція getCommonElements(array1, array2), приймає два масиви (array1 та array2)
+ * довільної довжини в якості параметрів.
+ * Доповни код функції:
+ * Створи порожній масив для зберігання нового масиву.
+ * Використай цикл for для ітерації кожного елемента у array1.
+ * У тілі циклу перевір, чи поточний елемент існує у array2 за допомогою методу includes.
+ * Якщо він існує, то додай елемент до нового масиву.
+ * Поверни наповнений масив спільних елементів як результат роботи функції.
+ */
+
+// function getCommonElements(array1, array2) {
+//   let commonElements = [];
+//   for (let i = 0; i < array1.length; i++) {
+//     if (array2.includes(array1[i])) {
+//       commonElements.push(array1[i]);
+//     }
+//   }
+//   return commonElements;
+// }
+
+// console.log(getCommonElements([1, 2, 3], [2, 4])); // [2]
+// console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19])); // [1, 2]
+// console.log(getCommonElements([1, 2, 3], [2, 3, 1, 19])); // [1, 2]
