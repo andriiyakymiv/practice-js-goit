@@ -140,11 +140,24 @@ lastElement	останній елемент масиву
  * lastThreeEls - масив із трьох останніх елементів
  */
 
-const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
-const firstTwoEls = fruits.slice(0, 2);
-const nonExtremeEls = fruits.slice(1, -1);
-const lastThreeEls = fruits.slice(-3);
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, -1);
+// const lastThreeEls = fruits.slice(-3);
 
-console.log(firstTwoEls);
-console.log(nonExtremeEls);
-console.log(lastThreeEls);
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+//! ----------- .concat ----------
+/**
+ * Оголоси змінну allClients та доповни код таким чином, щоб її значенням було посилання на масив,
+ * що складається з усіх елементів масивів oldClients і newClients.
+ * Спочатку мають іти елементи з масива oldClients, а потім з newClients.
+ */
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+// const allClients = oldClients.concat(newClients);
+
+console.log(allClients);
