@@ -102,3 +102,27 @@
 // const numberOfTags = apartment.tags.length;
 // const firstTag = apartment.tags[0];
 // const lastTag = apartment.tags.pop();
+
+/**
+ * ? Доступ до властивостей через квадратні дужки
+ * Об'єкт apartment описує квартиру з 5 властивостями: шлях до зображення, опис, рейтинг, ціна, теги.
+ * Оголошені 4 змінні, значення яких це значення відповідних властивостей об'єкту apartment.
+ * Доповни код, задавши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment, використовуючи синтаксис квадратних дужок.
+ * aptRating - рейтинг
+ * aptDescr - опис;
+ * aptPrice - ціна;
+ * aptTags - теги.
+ */
+
+// const apartment = {
+//   imgUrl: 'https://via.placeholder.com/640x480',
+//   descr: 'Spacious apartment in the city center',
+//   rating: 4,
+//   price: 2153,
+//   tags: ['premium', 'promoted', 'top'],
+// };
+
+// const aptRating = apartment['rating'];
+// const aptDescr = apartment['descr'];
+// const aptPrice = apartment['price'];
+// const aptTags = apartment['tags'];
