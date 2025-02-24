@@ -65,3 +65,21 @@
 // console.log(countProps({}));
 // console.log(countProps({ name: 'Mango', age: 2 }));
 // console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 }));
+
+/**
+ * ? Метод Object.values()
+ * Запиши у змінну keys масив ключів властивостей об'єкта apartment, а у змінну values - масив їх значень.
+ * Використовуй методи Object.keys() і Object.values().
+ */
+
+// const apartment = {
+//   descr: 'Spacious apartment in the city center',
+//   rating: 4,
+//   price: 2153,
+// };
+
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+
+// console.log(keys);
+// console.log(values);
