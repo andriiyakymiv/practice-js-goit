@@ -41,3 +41,27 @@
 
 // console.log(values);
 // console.log(keys);
+
+/**
+ * ? Метод Object.keys()
+ * Виконай рефакторинг функції countProps(object), замінивши перебір ключів за допомогою циклу for…in на метод Object.keys()
+ * для отримання масиву властивостей. Функція має повернути кількість властивостей в об'єкті object.
+ */
+
+// function countProps(object) {
+//   let propCount = 0;
+
+//   const keys = Object.keys(object);
+
+//   for (const key of keys) {
+//     if (object.hasOwnProperty(key)) {
+//       propCount += 1;
+//     }
+//   }
+
+//   return propCount;
+// }
+
+// console.log(countProps({}));
+// console.log(countProps({ name: 'Mango', age: 2 }));
+// console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 }));
