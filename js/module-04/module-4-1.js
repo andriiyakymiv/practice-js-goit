@@ -210,5 +210,18 @@
 // console.log(product);
 
 /**
- * ?
+ * ? Обчислювальні властивості - Computational properties
+ * Використовуючи синтаксис обчислювальних властивостей, доповни код оголошення об'єкта credentials таким чином,
+ * щоб в результаті у нього були дві властивості: email і password, ключі яких зберігаються у змінних emailInputName і passwordInputName.
+ * Значенням властивості email повинен бути рядок "henry.carter@aptmail.com", а значенням властивості password - рядок "jqueryismyjam".
  */
+
+// const emailInputName = 'email';
+// const passwordInputName = 'password';
+
+// const credentials = {
+//   [emailInputName]: 'henry.carter@aptmail.com',
+//   [passwordInputName]: 'jqueryismyjam',
+// };
+
+// console.log(credentials);
