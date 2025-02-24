@@ -83,3 +83,33 @@
 
 // console.log(keys);
 // console.log(values);
+
+/**
+ * ? Метод Object.values() - Витрати на зарплату
+ * Функція countTotalSalary(salaries) приймає об'єкт зарплат (salaries) в якості параметра. Кожна властивість об'єкта
+ * salaries — це ключ, що містить ім'я співробітника, та значення - його відповідна зарплатня.
+ * Доповни код функції countTotalSalary(salaries) так, щоб вона повертала загальну суму зарплат всіх співробітників.
+ * Поради:
+ * Ініціалізуй змінну totalSalary зі значенням 0, яка буде відповідати за загальну суму зарплат усіх співробітників
+ * Використай метод Object.values() для отримання значень (зарплат) з об'єкта salaries
+ * Пройдись по отриманих значеннях за допомогою циклу та додай кожне значення до змінної totalSalary.
+ * Поверни totalSalary як результат
+ */
+
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+
+//   const values = Object.values(salaries);
+
+//   console.log(values);
+
+//   for (const value of values) {
+//     totalSalary += value;
+//   }
+
+//   return totalSalary;
+// }
+
+// console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 })); // 330
+// console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 })); // 400
+// console.log(countTotalSalary({})); // 0
