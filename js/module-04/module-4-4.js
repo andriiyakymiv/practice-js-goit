@@ -17,3 +17,18 @@
 //     return `Adding ${potionName}`;
 //   },
 // };
+
+/**
+ * ? Доступ до властивостей об'єкта - Accessing object properties
+ * Об'єкт atTheOldToad має наступні властивості:
+ * potions — масив рядків, з назвами зілль
+ * getPotions() — метод, який повертає рядок "List of all available potions"
+ * Зміни код метода об'єкта getPotions() так, щоб він повертав значення властивості potions
+ */
+
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Stone skin'],
+//   getPotions() {
+//     return this.potions;
+//   },
+// };
