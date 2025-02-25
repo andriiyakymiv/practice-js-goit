@@ -85,3 +85,36 @@
 // console.log(getAllPropValues('name')); // ["Radar", "Scanner", "Droid", "Grip"]
 // console.log(getAllPropValues('quantity')); // [4, 3, 7, 9]
 // console.log(getAllPropValues('price')); // [1300, 2700, 400, 1200]
+
+/**
+ * ? Задача "Вартість товару" - Task Cost of goods
+ * Функція calculateTotalPrice(productName) приймає один параметр productName- назва товару.
+ * Функція містить масив об'єктів products з такими властивостями, як name — ім'я товару, price — ціна і quantity — кількість.
+ * Доповни код функції так, щоб вона повертала загальну вартість (ціна * кількість) товару з таким ім'ям з масиву products.
+ * Якщо продукту з такою назвою немає, то функція повинна повертати рядок "Product <productName> not found!"
+ * де <productName> — це ім'я товару.
+ */
+
+// function calculateTotalPrice(productName) {
+//   const products = [
+//     { name: 'Radar', price: 1300, quantity: 4 },
+//     { name: 'Scanner', price: 2700, quantity: 3 },
+//     { name: 'Droid', price: 400, quantity: 7 },
+//     { name: 'Grip', price: 1200, quantity: 9 },
+//   ];
+
+//   let total = 0;
+
+//   for (const product of products) {
+//     if (product.name === productName) {
+//       return (total = product.price * product.quantity);
+//     }
+//   }
+//   return `Product ${productName} not found!`;
+// }
+
+// console.log(calculateTotalPrice('Radar'));
+// console.log(calculateTotalPrice('Scanner'));
+// console.log(calculateTotalPrice('Droid'));
+// console.log(calculateTotalPrice('Grip'));
+// console.log(calculateTotalPrice('Blaster'));
