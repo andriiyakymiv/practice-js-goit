@@ -35,5 +35,27 @@
 
 /**
  * ? Зміна за посиланням - Change by link
- *
+ * Об'єкт atTheOldToad має наступні властивості:
+ * potions — масив рядків, з назвами зілль
+ * getPotions() — метод, який повертає значення властивості potions
+ * addPotion() — метод, який приймає параметр рядок з назвою зілля potionName
+ * Зміни код методу addPotion(potionName) так, щоб він додавав зілля potionName в кінець масиву у властивості potions.
+ */
+
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Stone skin'],
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(potionName) {
+//     this.potions.push(potionName);
+//   },
+// };
+
+// atTheOldToad.addPotion('Invisibility'); // ["Speed potion", "Stone skin", "Invisibility"]
+
+// console.log(atTheOldToad);
+
+/**
+ * ?
  */
