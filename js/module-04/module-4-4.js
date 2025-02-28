@@ -89,3 +89,32 @@
 // };
 
 // console.log(atTheOldToad.getTotalPrice());
+
+/**
+ * ? Зміна об'єкта в масиві - Changing an object in an array
+ * Об'єкт atTheOldToad має наступні властивості:
+ * potions — масив об'єктів зілль
+ * getPotions() — метод, який повертає значення властивості potions
+ * updatePotionName() — метод, який приймає два параметра рядків oldName і newName
+ * Доповни метод updatePotionName(oldName, newName) таким чином, щоб він оновлював
+ * назву зілля з oldName на newName в масиві зілля у властивості potions.
+ */
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: 'Speed potion', price: 460 },
+//     { name: 'Stone skin', price: 520 },
+//   ],
+//   getPotions() {
+//     return this.potions;
+//   },
+//   updatePotionName(oldName, newName) {
+//     for (const potion of this.potions) {
+//       if (potion.name === oldName) {
+//         this.potions.name = newName;
+//       }
+//     }
+//   },
+// };
+
+// atTheOldToad.updatePotionName('Stone skin', 'Invisibility'); // [{ name: "Speed potion", price: 460 }, { name: "Invisibility", price: 520 } ]
