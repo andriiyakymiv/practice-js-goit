@@ -57,5 +57,35 @@
 // console.log(atTheOldToad);
 
 /**
- * ?
+ * ? Масив об'єктів - Array of objects
+ * Замовниця хоче, щоб кожне зілля було представлено не тільки ім'ям, але й ціною.
+ * Тому зараз у властивості potions буде зберігатися масив об'єктів з властивостями name та price.
+ * Об'єкт atTheOldToad має наступні властивості:
+ * potions — масив рядків, з назвами зілль
+ * getPotions() — метод, який повертає значення властивості potions
+ * addPotion() — метод, який приймає параметр об'єкт нового зілля newPotion і додає його в кінець масиву у властивості potions.
+ * Додай метод getTotalPrice(), який має повертати загальну вартість усіх зілль з властивості potions.
  */
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: 'Speed potion', price: 460 },
+//     { name: 'Stone skin', price: 520 },
+//   ],
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     this.potions.push(newPotion);
+//   },
+//   getTotalPrice() {
+//     let totalCost = 0;
+
+//     for (const potion of this.potions) {
+//       totalCost += potion.price;
+//     }
+//     return totalCost;
+//   },
+// };
+
+// console.log(atTheOldToad.getTotalPrice());
