@@ -84,5 +84,29 @@
 // console.log('worstScore:', worstScore);
 
 /**
- * ? Створення об'єкта -
+ * ? Створення об'єкта - Creating an object
+ * В конструкторі можна створювати нові тести, для яких є налаштування за замовчуванням,
+ * які зберігаються у змінній defaultSettings. Під час створення тесту, усі або частину
+ * налаштувань можна перевизначити, користувацькі налаштування зберігаються у змінній overrideSettings.
+ * Для того щоб отримати фінальні налаштування тесту, необхідно взяти налаштування за замовчуванням і
+ * поверх них застосувати перевизначені користувацькі налаштування. Доповни код таким чином,
+ * щоб у змінній finalSettings утворився об'єкт фінальних налаштувань тесту.
  */
+
+const defaultSettings = {
+  theme: 'light',
+  public: true,
+  withPassword: false,
+  minNumberOfQuestions: 10,
+  timePerQuestion: 60,
+};
+const overrideSettings = {
+  public: false,
+  withPassword: true,
+  timePerQuestion: 30,
+};
+
+const finalSettings = {
+  ...defaultSettings,
+  ...overrideSettings,
+};
