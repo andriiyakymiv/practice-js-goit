@@ -15,7 +15,7 @@
 // console.log(add(1, 2, 3));
 
 /**
- * ? Збір частини аргументів - Gathering some of the arguments
+ * ? Збір частини аргументів - Gathering some of the arguments - ...rest
  * Функція addOverNum() приймає довільну кількість аргументів чисел.
  * Доповни код функції таким чином, щоб вона обчислювала суму тільки тих аргументів, які більші за задане число.
  * Це число завжди буде передано першим аргументом.
@@ -39,3 +39,21 @@
 
 // console.log(addOverNum(50, 15, 27)); // 0
 // console.log(addOverNum(10, 12, 4, 11, 48, 10, 8)); // 71
+
+/**
+ * ? Входження параметрів - Parameter entry - ...spread
+ * Функція getExtremeScores(scores) приймає масив оцінок (чисел) у параметрі scores.
+ * Доповни код функції так, щоб вона повертала об'єкт із двома властивостями:
+ * Властивість best має містити найбільше число з масиву scores
+ * Властивість worst має містити найменше число з масиву scores.
+ * Використовуй оператор (...spread) і методи Math.max() і Math.min().
+ */
+
+// function getExtremeScores(scores) {
+//   return {
+//     best: Math.max(...scores),
+//     worst: Math.min(...scores),
+//   };
+// }
+
+// console.log(getExtremeScores([89, 64, 42, 17, 93, 51, 26]));
