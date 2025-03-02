@@ -44,3 +44,13 @@
 // };
 
 // button.addEventListener('click', handleClick);
+
+/**
+ * ? Події
+ * ? Властивості key і code
+ */
+
+// document.addEventListener('keydown', event => {
+//   console.log('key: ', event.key);
+//   console.log('code: ', event.code);
+// });
