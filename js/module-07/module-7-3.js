@@ -15,3 +15,29 @@
 
 // const div = document.createElement('div');
 // console.log(div);
+
+/**
+ * ? Додавання елементів - Adding items
+ */
+
+// const list = document.querySelector('.usernames');
+
+// Adds an item to the end of the list
+// const lastItem = document.createElement('li');
+// lastItem.textContent = 'Poly';
+// list.append(lastItem);
+
+// Adds an item to the beginning of the list
+// const firstItem = document.createElement('li');
+// firstItem.textContent = 'Ajax';
+// list.prepend(firstItem);
+
+// const list = document.querySelector('.usernames');
+
+// const lastItem = document.createElement('li');
+// lastItem.textContent = 'Poly';
+// list.append(lastItem);
+
+// const firstElement = document.createElement('li');
+// firstElement.textContent = 'Ajax';
+// list.prepend(firstElement);
