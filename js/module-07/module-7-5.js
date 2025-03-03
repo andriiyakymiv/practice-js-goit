@@ -1,8 +1,7 @@
-// console.log('Події елементів форм');
-// const form = document.querySelector('form');
+console.log('Події елементів форм');
+const form = document.querySelector('form');
 
-// form.addEventListener('submit', event => {
-// });
+form.addEventListener('submit', event => {});
 
 const registerForm = document.querySelector('.form');
 
