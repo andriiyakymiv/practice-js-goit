@@ -83,8 +83,13 @@ const ref = {
 // topicEl.style.backgroundColor = 'blue';
 
 // 15 - знайти в документі заголовок, який має class="completed" і виведи його в консоль;
+// const completedElem = document.querySelector('.completed');
+// console.log(completedElem);
 
 // 16 - видали елемент li в якому знаходиться заголовок, який має class="completed"
+// console.log(completedElem.parentElement);
+// console.log(completedElem.parentNode);
+// console.log(completedElem.closest('li').remove());
 
 // 17 - після заголовка h1 (перед списком) додай новий елемент p і задай йому наступний текст: "Об'єктна модель документа (Document Object Model)"
 
