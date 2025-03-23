@@ -110,5 +110,17 @@ const ref = {
 // creElLi.append(creElH3, creElP);
 
 // 19 - зроби це саме, але використовуй шаблонні рядки та метод insertAdjacentHTML()
+// const newElLi = `<li>
+//             <h3>атрибути</h3>
+//             <p>
+//                 elem.textContent, elem.classList, elem.style, elem.hasAttribute(name),
+//                 elem.getAttribute(name), elem.setAttribute(name, value),
+//                 elem.removeAttribute(name)
+//             </p>
+//         </li>`;
+
+// ref.list.insertAdjacentHTML('beforeend', newElLi);
 
 // 20 - очисти список
+
+// ref.list.innerHTML = '';
