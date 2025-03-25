@@ -31,17 +31,32 @@
 
 // 3
 
-function deliverPizza(pizzaName) {
-  return `Delivering ${pizzaName} pizza.`;
-}
+// function deliverPizza(pizzaName) {
+//   return `Delivering ${pizzaName} pizza.`;
+// }
 
-function makePizza(pizzaName) {
-  return `Pizza ${pizzaName} is being prepared, please wait...`;
-}
+// function makePizza(pizzaName) {
+//   return `Pizza ${pizzaName} is being prepared, please wait...`;
+// }
 
-function makeMessage(pizzaName, callback) {
-  return callback(pizzaName);
-}
+// function makeMessage(pizzaName, callback) {
+//   return callback(pizzaName);
+// }
 
-console.log(makeMessage('Royal Grand', makePizza));
-console.log(makeMessage('Ultracheese', deliverPizza));
+// console.log(makeMessage('Royal Grand', makePizza));
+// console.log(makeMessage('Ultracheese', deliverPizza));
+
+// 4
+
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
+
+// makePizza('Royal Grand', function eatPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}`);
+// });
+
+// makePizza('Ultracheese', function eatPizza(pizzaName) {
+//   console.log(`Eating pizza ${pizzaName}`);
+// });
